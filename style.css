@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}    
+body{
+    margin: 8px;
+    background-color: rgb(68, 252, 252);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.nav li{
+    padding-right: 1%;
+}
+
+
+.nav li a{
+    text-decoration: none;
+}
+
+
