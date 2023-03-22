@@ -6,21 +6,34 @@ body{
     background-color: rgb(68, 252, 252);
 }
 
-.nav{
+nav ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
     list-style: none;
-    
+    overflow: hidden;
 }
 
-.nav li{
-    padding-right: 1%;
+nav ul li{
+    padding: 0.5% 1% 0.3% 1%;
+    background-color:rgb(95, 244, 95);
+       
 }
 
 
-.nav li a{
+nav ul li a{
     text-decoration: none;
 }
 
+nav ul li:hover{
+    cursor: pointer;
+    background-color: rgb(141, 225, 197);
+}
 
+#con{
+   padding-top: 40px;
+   padding-bottom: 40px;
+    margin: 50px;
+    text-align: center;
+    border: 1px black solid;
+}
