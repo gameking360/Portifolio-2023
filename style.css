@@ -1,9 +1,15 @@
 *{
     margin: 0px;
+    color: rgb(255, 255, 255);
 }    
+
 body{
-    margin: 8px;
-    background-color: rgb(68, 252, 252);
+    background-color: rgb(1, 1, 97);
+}
+
+main{
+    background-color: rgb(17, 50, 196);
+
 }
 
 nav ul{
@@ -12,35 +18,38 @@ nav ul{
     flex-direction: row;
     list-style: none;
     overflow: hidden;
+    margin: 1%;
 }
 
 nav ul li{
     padding: 0.5% 1% 0.3% 1%;
-    background-color:rgb(95, 244, 95);
+    background-color:rgb(23, 90, 223);
        
 }
 
 
+
 nav ul li a{
     text-decoration: none;
+    background-color:rgb(23, 90, 223);
 }
 
 nav ul li:hover{
     cursor: pointer;
-    background-color: rgb(141, 225, 197);
+    background-color: rgb(63, 85, 246);
 }
 
 .cont{
-   padding-top: 40px;
-   padding-bottom: 40px;
-    margin: 50px;
+   padding-top: 10%;
+   padding-bottom: 8%;
+    margin: 5%;
     text-align: center;
     border: 1px black solid;
-    background-color: aquamarine;
+    background-color: rgb(122, 48, 240);
 }
 
 #Eu{
-    margin-left: 40px;
+    margin-left: 7%;
     border-radius: 40%;
     display: flex;
     justify-content: left;
@@ -62,4 +71,63 @@ nav ul li:hover{
     flex-direction: column;
     margin-left: 2%;
     text-align: left;
+}
+
+#CieNatuTitle{
+  
+    font-family: fantasy;
+    font-size: 200%;
+   
+}
+.retangulo
+{
+    margin:4% auto;
+    text-align: center;
+    background-color: rgb(154, 223, 71);
+    width: 40%;     
+  
+    border-radius: 30px;
+}
+
+.conteudo{
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureNatu{
+    width: 25%;
+    height:25%;
+}
+.conteudo picture{
+    border: 2px brown solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    background-color: rgb(133, 112, 209);
+}
+.conteudo picture span{
+    position: relative;
+}
+
+.contLing{
+    margin: 12%;
+    align-items: center;
+}
+
+.ling{
+    background-color: rgb(122, 68, 238);
+    border: 5px solid black;
+}
+
+.pictureLing{
+    width: 25%;
+    height: 25%;
+    margin: 3%;
+}
+
+#carrossel{
+    width: 25%;
 }
