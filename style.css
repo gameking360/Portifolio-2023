@@ -11,6 +11,9 @@ main{
     background-color: rgb(17, 50, 196);
 
 }
+li{
+    list-style: none;
+}
 
 nav ul{
     display: flex;
@@ -27,8 +30,6 @@ nav ul li{
        
 }
 
-
-
 nav ul li a{
     text-decoration: none;
     background-color:rgb(23, 90, 223);
@@ -40,8 +41,7 @@ nav ul li:hover{
 }
 
 .cont{
-   padding-top: 10%;
-   padding-bottom: 8%;
+    padding: 5%;
     margin: 5%;
     text-align: center;
     border: 1px black solid;
@@ -49,7 +49,7 @@ nav ul li:hover{
 }
 
 #Eu{
-    margin-left: 7%;
+    margin: 35% 0% 0% 0%;
     border-radius: 40%;
     display: flex;
     justify-content: left;
@@ -64,14 +64,16 @@ nav ul li:hover{
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 5%;
 }
 
 #apresentacao{
     display:flex;
     flex-direction: column;
-    margin-left: 2%;
+    margin-left: 4%;
     text-align: left;
 }
+
 
 #CieNatuTitle{
   
@@ -79,6 +81,27 @@ nav ul li:hover{
     font-size: 200%;
    
 }
+
+#MateTitulo{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+#LingTitulo{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+#CieHumanaTitulo{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+#DSTitulo{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
 .retangulo
 {
     margin:4% auto;
@@ -94,40 +117,145 @@ nav ul li:hover{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin: 0% 15% 0% 15%;
 }
 
 .pictureNatu{
-    width: 25%;
-    height:25%;
+    width: 35%;
+    height:35%;
+    margin: 1%;
 }
 .conteudo picture{
-    border: 2px brown solid;
+   border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 1%;
-    background-color: rgb(133, 112, 209);
+    background-color: rgb(83, 87, 142);
 }
 .conteudo picture span{
     position: relative;
+    margin: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 140%;
 }
 
+
+
 .contLing{
-    margin: 12%;
+    margin: 5% 6% 0% 6%;
     align-items: center;
+}
+
+.contLing ul li{
+    margin: 2% 15% 2% 15%;
 }
 
 .ling{
     background-color: rgb(122, 68, 238);
-    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.ling span{
+    margin: 2% 0% 3% 0%;
+}
+
+#Modernismo{
+    height: 70%;
+    width: 70%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.DS_Item{
+    background-color: rgb(122, 68, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0% 3% 0%;
+    border-radius: 20px;
+
+}
+
+.DS_Item span{
+    margin: 1% 0% 2% 0%;
+}
+
+.DS_Item .coisa{
+    margin: 1%;
 }
 
 .pictureLing{
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     margin: 3%;
 }
 
+#carrossel span{
+    margin-bottom: 5%;
+}
+
 #carrossel{
-    width: 25%;
+    width: 35%;
+    height: 35%;
+    }
+
+
+#boxcar{
+    margin: 2% 15% 2% 15%;
+    background-color: blueviolet;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#contMat{
+    align-items: center;
+}
+
+#contMat li{
+    margin: 2% 15% 2% 15%;
+    background-color: blueviolet;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#contMat li span{
+    margin: 2% 0% 3% 0%;
+}
+
+#contMat li div{
+    margin: 2% 0% 3% 0%;
+
+}
+
+.contCieHuma{
+    align-items: center;
+
+}
+
+.contCieHuma li{
+    margin: 3% 15% 1% 15%;
+    background-color: blueviolet;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.contCieHuma li span{
+    margin: 1% 0% 2% 0%;
+}
+
+.contCieHuma li iframe{
+    margin: 1.3%;
 }
